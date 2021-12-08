@@ -7,6 +7,7 @@ metadata:
   labels:
     app: argo-combined-app
 spec:
+  Replicas: 1
   minReplicas: 2
   maxReplicas: 6
   scaleTargetRef:
