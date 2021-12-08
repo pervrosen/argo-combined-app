@@ -7,11 +7,17 @@ metadata:
   labels:
     app: argo-combined-app
 spec:
-  Replicas: 1
   minReplicas: 2
   maxReplicas: 6
   scaleTargetRef:
     apiVersion: argoproj.io/v1alpha1
     kind: Rollout
     name: argo-combined-app
-  targetCPUUtilizationPercentage: 80
+#  targetCPUUtilizationPercentage: 80
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 80
