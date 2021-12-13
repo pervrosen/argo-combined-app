@@ -14,7 +14,7 @@ disqusShortname = ""
 
   # Provide your metadata here.
   name = "Viktor Farcic"
-  description = "Books and courses dedicated to DevOps practices and tools"
+  description = "Books and courses dedicated to DevOps practices and tools."
 
   # Link custom assets relative to /static
   custom_css = []
