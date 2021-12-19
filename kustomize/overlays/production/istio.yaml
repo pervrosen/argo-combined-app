@@ -9,7 +9,7 @@ spec:
   - argo-combined-app
   hosts:
   - argo-combined-app.local
-  - argo-combined-app.172.18.255.202.nip.io
+  - argo-combined-app.172.20.255.202.nip.io
   http:
   - name: primary
     route:
