@@ -57,7 +57,7 @@ disqusShortname = ""
     # Display your showcases here.
 
     [[params.tiles.showcase]]
-      title = "The DevOps Toolkit"
+      title = "The DevOps Toolkit - HEPP!"
       subtitle = "Catalog, Patterns, And Blueprints"
       image = "catalog-small.jpg"
       url = "posts/catalog"
